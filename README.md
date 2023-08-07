@@ -1,4 +1,4 @@
-#Projeto Curso DIO - qualidade de Software e Testes em Node.js com TypeScript
+# Projeto Curso DIO - qualidade de Software e Testes em Node.js com TypeScript
 
 ## Projeto desenvolvido com conceitos básicos de Node, Typescript e Jest
 ## Instrutora Nathally Souza 
