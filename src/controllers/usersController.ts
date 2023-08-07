@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
 import { database } from '../database'
 
-export class usersController{
+export class UsersController{
     criarUsuario (request : Request, response : Response): Response{
         const { name } = request.body
 
@@ -12,8 +12,8 @@ export class usersController{
         return response.status(201).json({'mensagem': `Usuário ${name} criado`})
     }
 
-    // listarUsuario(request, response){
-    //     return response.status(200).json(database)
-    // }
+    listarUsuario(request : Request, response : Response): Response{
+         return response.status(200).json(database)
+     }
 }
 
